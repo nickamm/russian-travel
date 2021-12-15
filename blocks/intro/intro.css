@@ -1,9 +1,0 @@
-.intro {
-  max-width: 984px;
-}
-
-@media screen and (max-width: 568px) {
-  .lead__image {
-    max-width: 288px;
-  }
-}
