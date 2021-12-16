@@ -1,3 +1,28 @@
 .place {
-  
+  display: grid;
+  grid-template-columns: repeat(2, fit-content(460px));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1140px) {
+  .place {
+    grid-template-columns: repeat(2, fit-content(440px));
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place {
+    grid-template-columns: repeat(2, fit-content(340px));
+    gap: 48px 28px;
+  }
+}
+ 
+@media screen and (max-width: 568px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px; 
+  }
 }
