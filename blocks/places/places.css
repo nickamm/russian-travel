@@ -1,6 +1,19 @@
-/* .places {
+.places {
   max-width: 984px;
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    row-gap: 73px;
+  }
+}
+ 
+@media screen and (max-width: 568px) {
+  .places {
+    row-gap: 50px;
+  }
+}
