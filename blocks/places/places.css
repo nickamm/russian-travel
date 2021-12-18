@@ -1,5 +1,4 @@
 .places {
-  outline: 1px solid red;
   max-width: 984px;
   display: flex;
   flex-direction: column;
