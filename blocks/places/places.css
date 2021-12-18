@@ -1,8 +1,8 @@
 .places {
+  outline: 1px solid red;
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   row-gap: 80px;
 }
 
