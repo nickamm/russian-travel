@@ -17,11 +17,17 @@
     row-gap: 88px;
     padding-bottom: 88px;
   }
+  .content:last-of-type {
+    row-gap: 90px;
+  }
 }
  
 @media screen and (max-width: 568px) {
   .content {
     row-gap: 64px;
     padding-bottom: 64px;
+  }
+  .content:last-of-type {
+     row-gap: 66px;
   }
 }
